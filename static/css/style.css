@@ -15,7 +15,7 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-image: url("imgs/gradient7.jpg");
+    background-image: url("imgs/gradient1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -44,6 +44,7 @@ h1 {
 }
 
 .landing div img {
-    height: 80vh;
+    height: 50vh;
     width: auto;
+    margin-left: 10vw;
 }

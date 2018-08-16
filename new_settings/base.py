@@ -23,7 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'oy)u4-=5l_dg^y4x*4&sp&#tiy@5&0ha^#=8nq(5l_9x@ktfw('
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'extraordinaryjack.herokuapp.com',
+]
 
 
 # Application definition
