@@ -1,0 +1,50 @@
+/*
+
+
+    font-family: 'Bree Serif', serif;
+
+    font-family: 'Questrial', sans-serif;
+
+    font-family: 'Gloria Hallelujah', cursive;
+
+    font-family: 'Amaranth', sans-serif;
+
+
+ */
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("imgs/gradient1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 2em;
+    margin: 10px 0
+
+}
+
+.landing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.landing div img {
+    height: 50vh;
+    width: auto;
+    margin-left: 10vw;
+}

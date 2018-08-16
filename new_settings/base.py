@@ -27,7 +27,6 @@ ALLOWED_HOSTS = [
     'extraordinaryjack.herokuapp.com',
 ]
 
-
 # Application definition
 
 INSTALLED_APPS = [
