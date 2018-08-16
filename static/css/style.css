@@ -1,13 +1,18 @@
 /*
 
 
-    font-family: 'Bree Serif', serif;
 
-    font-family: 'Questrial', sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
 
-    font-family: 'Gloria Hallelujah', cursive;
 
-    font-family: 'Amaranth', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Indie Flower', cursive;
+
+    font-family: 'Baloo Bhai', cursive;
+
+    font-family: 'Merriweather Sans', sans-serif;
+
 
 
  */
@@ -29,9 +34,9 @@ body {
     align-items: center;
 }
 h1 {
-    font-family: 'Kirang Haerang', cursive;
+    font-family: 'M PLUS 1p', sans-serif;
     font-size: 2em;
-    margin: 10px 0
+    margin: 20px 0;
 
 }
 
@@ -43,8 +48,36 @@ h1 {
     margin: 25px;
 }
 
-.landing div img {
+#xyy {
     height: 50vh;
     width: auto;
     margin-left: 5vw;
+}
+#fb-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#fb-link > h1:nth-child(1) {
+    margin: 0;
+}
+#fb {
+    height: 35px;
+    width: auto;
+    margin-left: 20px;
+}
+
+.title {
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+
+a {
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    #xyy { display: none}
+    h1 {font-size: 1.5em;}
+    .title { font-size: 4em}
 }
