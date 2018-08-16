@@ -1,0 +1,1 @@
+web: gunicorn ExtraOrdanary.wsgi :app

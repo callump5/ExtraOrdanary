@@ -1,0 +1,14 @@
+
+Django
+gunicorn==19.4.0
+Jinja2
+MarkupSafe
+mock
+pbr
+pytz
+six
+virtualenv
+Werkzeug
+whitenoise
+dj-database-url==0.2.1
+django-storages
